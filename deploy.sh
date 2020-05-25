@@ -19,5 +19,5 @@ WantedBy = multi-user.target
 " > /etc/systemd/system/blynk.service
 
 # ファイルのロードと有効化
-$ sudo systemctl daemon-reload  # 読み込み
-$ sudo systemctl enable blynk   # 自動起動設定
+sudo systemctl daemon-reload  # 読み込み
+sudo systemctl enable blynk   # 自動起動設定
